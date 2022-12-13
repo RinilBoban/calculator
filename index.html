@@ -14,26 +14,33 @@
             
     </div>
     <div class="butt">
-           <button onclick="display(1)" style="background-color: rgb(240, 236, 236);">1</button>
-            <button onclick="display(2)" style="background-color: rgb(252, 244, 244);">2</button>
+        <div class="rowone">
+           <button onclick="display(1)" style="background-color: rgb(252, 243, 243);">1</button>
+            <button onclick="display(2)" style="background-color: rgb(252, 254, 244);">2</button>
             <button onclick="display(3)" style="background-color: rgb(247, 247, 247);" >3</button>
-            <button onclick="display('+')" style="background-color: rgb(101, 79, 199);">+</button>
-            <button onclick="display('-')" style="background-color: rgb(101, 79, 199);">-</button><br>
+            <button onclick="display('+')" style="background-color: rgb(101, 79, 199); border-bottom: solid 1px rgb(136, 81, 190); border-right: solid 1px rgb(136, 81, 190);">+</button>
+            <button onclick="display('-')" style="background-color: rgb(101, 79, 199); border-bottom: solid 1px rgb(136, 81, 190);">-</button>
+        </div>
+        <div class="rowtwo">
             <button onclick="display(4)" style="background-color: rgb(240, 236, 236);">4</button>
-            <button onclick="display(5)" style="background-color: rgb(252, 244, 244);">5</button>
+            <button onclick="display(5)" style="background-color: rgb(252, 254, 244);">5</button>
             <button onclick="display(6)" style="background-color: rgb(247, 247, 247);">6</button>
-            <button onclick="display('*')" style="background-color: rgb(101, 79, 199);">X</button>
-            <button onclick="display('/')" style="background-color: rgb(101, 79, 199);">/</button><br>
+            <button onclick="display('*')" style="background-color: rgb(101, 79, 199);  border-bottom: solid 1px rgb(136, 81, 190); border-right: solid 1px rgb(136, 81, 190);">X</button>
+            <button onclick="display('/')" style="background-color: rgb(101, 79, 199);">/</button>
+        </div>
+        <div class="rowthree">
             <button onclick="display(7)" style="background-color: rgb(240, 236, 236);">7</button>
-            <button onclick="display(8)" style="background-color: rgb(252, 244, 244);">8</button>
+            <button onclick="display(8)" style="background-color: rgb(252, 254, 244);">8</button>
             <button onclick="display(9)" style="background-color: rgb(247, 247, 247);">9</button>
-            <button onclick="removeElement()" style="width: 85px; background-color:rgb(42, 209, 231);">&#9003</button><BR>
+            <button onclick="removeElement()" style="width: 80px; background-color:rgb(42, 209, 231);">&#9003</button><BR>
+        </div>
+        <div class="rowfour">
             <button onclick="display(0)" style="background-color: rgb(240, 236, 236);">0</button>
-            <button onclick="evaluateexp()" style="background-color: rgb(147, 238, 43);">=</button>
+            <button onclick="evaluateexp()" style="background-color: rgb(147, 238, 43); border-right: 1px solid rgb(137, 220, 30);">=</button>
             <button onclick="allclear()" style="background-color: rgb(147, 238, 43);">AC</button>
-            <button onclick="display('(')" style="background-color: rgb(235, 43, 203);">(</button>
+            <button onclick="display('(')" style="background-color: rgb(235, 43, 203); border-right: 1px solid rgb(225, 30, 190);">(</button>
             <button onclick="display(')')" style="background-color: rgb(235, 43, 203);">)</button>
-
+        </div>
     </div>    
 </body>
 <script src="./calculator.js"></script>

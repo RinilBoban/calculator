@@ -1,5 +1,5 @@
 .box{
-    width: 218.2px;
+    width: 200px;
     height: 50px;
     margin-left: 200px;
     /* background-color:lavenderblush; */
@@ -21,7 +21,19 @@ button{
 }
 .butt{
     margin-left: 200px;
-    width: 218.2px;
+    width: 200px;
     height: 260px;
     background-color: white;
+}
+.rowone{
+    display: flex;
+}
+.rowtwo{
+    display: flex;
+}
+.rowthree{
+    display: flex;
+}
+.rowfour{
+    display: flex;
 }
