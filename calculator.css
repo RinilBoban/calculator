@@ -1,7 +1,27 @@
 .box{
-    width: 225px;
-    background-color:lavenderblush;
+    width: 218.2px;
+    height: 50px;
+    margin-left: 200px;
+    /* background-color:lavenderblush; */
 }
-.btn{
-    background-color:darkgray;
+body{
+    background-image:url(./images/wallpaper.jpg);
+    background-size: cover;
+}
+input{
+    color: aliceblue;
+    border-bottom: black;
+    border-right: black;
+}
+button{
+    height: 65px;
+    width: 40px;
+    border: whitesmoke;
+    background-color: white;
+}
+.butt{
+    margin-left: 200px;
+    width: 218.2px;
+    height: 260px;
+    background-color: white;
 }
